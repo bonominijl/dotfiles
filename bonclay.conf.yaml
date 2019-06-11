@@ -1,0 +1,17 @@
+backup:
+  overwrite: false
+
+restore:
+  overwrite: false
+
+sync:
+  clean: true
+  overwrite: true
+
+spec:
+ ~/.vim: vim/vim
+ ~/.vimrc: vim/vimrc
+ ~/.zshrc: zsh/zshrc
+ ~/.oh-my-zsh: zsh/oh-my-zsh
+ ~/.zprofile: zsh/zprofile
+ 
